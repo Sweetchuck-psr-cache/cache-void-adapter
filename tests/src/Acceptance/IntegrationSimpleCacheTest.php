@@ -12,12 +12,15 @@ declare(strict_types = 1);
  * with this source code in the file LICENSE.
  */
 
-namespace Cache\Adapter\Void\Tests;
+namespace Cache\Adapter\Void\Tests\Acceptance;
 
 use Cache\Adapter\Void\VoidCachePool;
 use Cache\IntegrationTests\SimpleCacheTest as BaseTest;
 use Psr\SimpleCache\CacheInterface;
 
+/**
+ * @covers \Cache\Adapter\Void\VoidCachePool
+ */
 class IntegrationSimpleCacheTest extends BaseTest
 {
 

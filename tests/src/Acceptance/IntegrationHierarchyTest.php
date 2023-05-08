@@ -12,12 +12,15 @@ declare(strict_types = 1);
  * with this source code in the file LICENSE.
  */
 
-namespace Cache\Adapter\Void\Tests;
+namespace Cache\Adapter\Void\Tests\Acceptance;
 
 use Cache\Adapter\Void\VoidCachePool;
 use Cache\IntegrationTests\HierarchicalCachePoolTest;
 use Psr\Cache\CacheItemPoolInterface;
 
+/**
+ * @covers \Cache\Adapter\Void\VoidCachePool
+ */
 class IntegrationHierarchyTest extends HierarchicalCachePoolTest
 {
 

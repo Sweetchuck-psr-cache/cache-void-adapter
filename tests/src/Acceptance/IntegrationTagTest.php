@@ -12,12 +12,15 @@ declare(strict_types = 1);
  * with this source code in the file LICENSE.
  */
 
-namespace Cache\Adapter\Void\Tests;
+namespace Cache\Adapter\Void\Tests\Acceptance;
 
 use Cache\Adapter\Void\VoidCachePool;
 use Cache\IntegrationTests\TaggableCachePoolTest;
 use Cache\TagInterop\TaggableCacheItemPoolInterface;
 
+/**
+ * @covers \Cache\Adapter\Void\VoidCachePool
+ */
 class IntegrationTagTest extends TaggableCachePoolTest
 {
 
